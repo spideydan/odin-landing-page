@@ -21,6 +21,7 @@ body {
     justify-content: space-around;
     padding-top: 16px;
     width: 1440px;
+
 }
 
 .header-logo {
@@ -49,6 +50,8 @@ body {
     align-items: center;
     gap: 3%;
     width: 1440px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .top-left {
@@ -84,6 +87,7 @@ body {
     width: 500px;
     background-color: gray;
     height: 220px;
+    border-radius: 8px;
 }
 
 
@@ -134,6 +138,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     align-self: center;
+    border-radius: 5px;
 }
 
 .quote {
@@ -203,9 +208,10 @@ button:hover {
     background-color: #1F2937;
     width: 1440px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
