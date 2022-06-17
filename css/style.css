@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 
 .header-logo {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -40,20 +41,20 @@ body {
 }
 
 .top-section {
-    height: 500px;
+    height: 450px;
     background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 3%;
     width: 1440px;
 }
 
 .top-left {
     display: flex;
     flex-direction: column;
-    width: 21%;
+    width: 32%;
 }
 
 .top-left p {
@@ -65,15 +66,18 @@ body {
 .top-left h1 {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .top-left button {
     color: white;
     background-color: #3882F6;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 8px;
     border: none;
-    width: 100px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .placeholder {
@@ -86,7 +90,7 @@ body {
 .middle-section {
     display: flex;
     align-self: center;
-    height: 500px;
+    height: 450px;
     padding: 50px;
     width: 1440px;
     text-align: center;
@@ -125,7 +129,7 @@ body {
 }
 
 .middle-section-two {
-    height: 350px;
+    height: 450px;
     width: 1440px;
     background-color: #E5E7EB;
     display: flex;
@@ -137,8 +141,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 350px;
+    height: 450px;
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     width: 1000px;
     padding-top: 50px;
@@ -150,4 +155,57 @@ body {
     align-self: flex-end;
     padding-top: 10px;
     font-size: 30px;
+}
+
+.bottom-section {
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.call h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call p {
+    font-size: 20px;
+}
+
+.button-two {
+    border: solid 2px white;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.footer {
+    background-color: #1F2937;
+    width: 1440px;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
