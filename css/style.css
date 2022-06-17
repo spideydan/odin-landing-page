@@ -9,11 +9,17 @@ body {
     flex-direction: column;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
     padding-top: 16px;
+    width: 1440px;
 }
 
 .header-logo {
@@ -34,50 +40,114 @@ body {
 }
 
 .top-section {
-    height: 300px;
+    height: 500px;
     background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    gap: 24px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    gap: 10%;
+    width: 1440px;
 }
 
 .top-left {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;
-}
-
-.placeholder {
-    width: 300px;
-    background-color: gray;
-    height: 150px;
+    flex-direction: column;
+    width: 21%;
 }
 
 .top-left p {
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 8px;
+    color: #F9FAF8;
+}
+
+.top-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .top-left button {
     color: white;
     background-color: #3882F6;
-    padding: 4px 16px;
+    padding: 10px;
     border-radius: 8px;
     border: none;
+    width: 100px;
 }
 
-.middle-section {
-    text-align: center;
+.placeholder {
+    width: 500px;
+    background-color: gray;
+    height: 220px;
+}
 
+
+.middle-section {
+    display: flex;
+    align-self: center;
+    height: 500px;
+    padding: 50px;
+    width: 1440px;
+    text-align: center;
+}
+
+.middle-section h2 {
+    font-size: 36px;
 }
 
 .four-img {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.img {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.obj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100px;
+    font-size: 12px;
+}
+
+.obj p {
+    color: #1F2937;
+    font-size: 16px;
+}
+
+.middle-section-two {
+    height: 350px;
+    width: 1440px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-self: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    font-size: 36px;
+    font-style: italic;
+    width: 1000px;
+    padding-top: 50px;
+}
+
+.quote span {
+    font-weight: 700;
+    display: flex;
+    align-self: flex-end;
+    padding-top: 10px;
+    font-size: 30px;
 }
