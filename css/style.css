@@ -50,8 +50,6 @@ body {
     align-items: center;
     gap: 3%;
     width: 1440px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 
 .top-left {
@@ -138,7 +136,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     align-self: center;
-    border-radius: 5px;
+
 }
 
 .quote {
@@ -213,5 +211,5 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+
 }
